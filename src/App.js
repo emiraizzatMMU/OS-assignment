@@ -29,14 +29,7 @@ import { primaryLight } from "./utils/ColorPicker";
 
 const App = (props) => {
   const classes = useStyles();
-  const [process, processSetter] = useState([
-    { burst: 6, arrival: 0, priority: 3 },
-    { burst: 4, arrival: 1, priority: 3 },
-    { burst: 6, arrival: 5, priority: 1 },
-    { burst: 6, arrival: 6, priority: 1 },
-    { burst: 6, arrival: 7, priority: 5 },
-    { burst: 6, arrival: 8, priority: 6 },
-  ]);
+  const [process, processSetter] = useState([]);
   const [algoSelected, algoSelectedSetter] = useState(0);
   const [result, resultSetter] = useState({});
   const isResult = !isEmpty(result);
