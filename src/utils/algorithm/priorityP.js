@@ -23,8 +23,6 @@ const priorityP = (data) => {
         });
       }
 
-      let found = data.find((f) => f.num == filtered[0].num);
-
       timer++;
       let et = timer;
 
