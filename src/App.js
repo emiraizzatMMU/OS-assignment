@@ -96,7 +96,7 @@ const App = (props) => {
           className={classes.sectionTitle}
           style={{ marginBottom: "3rem" }}
         >
-          OS Assignment by Azizi, Adry, Emir
+          OS Assignment 2110 by Azizi, Adry, Emir
         </Typography>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
